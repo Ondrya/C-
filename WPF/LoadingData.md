@@ -1,7 +1,8 @@
 Bad practice : put loading data to constructor
+
 Better : invoke loading as a command after window loading event
 
-How:
+##How:##
 
 1) in XAML
 

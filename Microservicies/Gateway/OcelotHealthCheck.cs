@@ -1,5 +1,5 @@
-								// add to pipline
-								var conf = new OcelotPipelineConfiguration()
+		// add to pipline
+		var conf = new OcelotPipelineConfiguration()
                 {
                     PreErrorResponderMiddleware = async (ctx, next) =>
                     {

@@ -5,6 +5,14 @@ namespace Extensions.Helpers
 {
     public class Common
     {
+        /// <summary>
+        /// Вывод сообщение поверх всех окон приложения
+        /// </summary>
+        /// <param name="msg"></param>
+        /// <param name="caption"></param>
+        /// <param name="buttons"></param>
+        /// <param name="image"></param>
+        /// <returns></returns>
         public static MessageBoxResult MessageBoxShowTopMost(
             string msg, 
             string caption = "Инфрмация",

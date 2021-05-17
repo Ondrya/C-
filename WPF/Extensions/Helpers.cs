@@ -13,6 +13,11 @@ namespace Extensions.Helpers
         /// <param name="buttons"></param>
         /// <param name="image"></param>
         /// <returns></returns>
+        /// <example>
+        /// <code>
+        /// Helpers.Common.MessageBoxShowTopMost("Im always on top - of the main window");
+        /// </code>
+        /// </example>
         public static MessageBoxResult MessageBoxShowTopMost(
             string msg, 
             string caption = "Инфрмация",

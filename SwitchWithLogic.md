@@ -1,4 +1,5 @@
 Add logic to switch statmen
+ - checked for .Net Core
 
 ```csharp
 using System;

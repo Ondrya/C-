@@ -49,6 +49,11 @@ catch (Exception e) when (new Func(() => true)())
 
 Where Func may be
 ```csharp
+/// <summary>
+/// Allow to see stack trace without catch error if need
+/// </summary>
+/// <param name="e">exception</param>
+/// <param name="shouldCatch">catch exception</param>
 public bool LogException(Exception e, bool shouldCatch = false)
 {
     Console.WriteLine(e);

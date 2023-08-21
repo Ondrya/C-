@@ -1,3 +1,5 @@
+[More info on dotnetnakama...](https://www.dotnetnakama.com/blog/enriched-web-api-documentation-using-swagger-openapi-in-asp-dotnet-core/)
+
 For multi proj solution
 
 ```csharp
